@@ -151,14 +151,14 @@
       d.querySelector('#darowizna').style.display = 'none';
       d.querySelector('#zlecenie-stale').style.display = 'none';
       
-      d.querySelector('[href="#darowizna"]').addEventListener('click', function(e) {
+      d.querySelector('[href="#darowizna"]').addEventListener('click', function(event) {
         event.preventDefault();
         d.querySelector('#darowizna').style.display = 'block';
         d.querySelector('#zlecenie-stale').style.display = 'none';
 
       });
       
-      d.querySelector('[href="#zlecenie-stale"]').addEventListener('click', function(e) {
+      d.querySelector('[href="#zlecenie-stale"]').addEventListener('click', function(event) {
         event.preventDefault();
         d.querySelector('#darowizna').style.display = 'none';
         d.querySelector('#zlecenie-stale').style.display = 'block';
