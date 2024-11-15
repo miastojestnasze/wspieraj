@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?wspieraj\.miastojestnasze\.org [NC]
+RewriteRule (.*) https://miastojestnasze.org/wspieraj-mjn/ [R=301,L]
